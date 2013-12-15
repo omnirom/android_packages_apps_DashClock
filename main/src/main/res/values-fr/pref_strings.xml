@@ -15,56 +15,79 @@
   -->
 
 <resources>
-    <!-- Advanced widget preferences -->
     <string name="pref_clock_shortcut_title">Raccourci horloge</string>
+    <string name="pref_background_title">Arrière plan</string>
+    <string name="pref_foreground_color_title">Couleur du premier plan</string>
+    <string name="pref_homescreen_title">Widget de l\'écran d\'accueil</string>
+    <string name="pref_lockscreen_title">Widget de l\'écran de verrouillage</string>
+    <string name="pref_background_opacity_title">Opacité de l\'arrière plan</string>
+    <string-array name="pref_background_opacity_display_names">
+        <item>Transparent</item>
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>Opaque</item>
+    </string-array>
+    <string name="pref_foreground_color_description">Couleur du texte et des icônes</string>
     <string name="pref_aggressive_centering_title">Toujours centré</string>
     <string name="pref_aggressive_centering_description">Peut provoquer une instabilité dans l\'affichage de l\'horloge dans différents états du widget</string>
-
-    <!-- Universal settings preferences -->
+    <string name="pref_settings_button_title">Bouton des paramètres</string>
+    <string-array name="pref_settings_button_display_names">
+        <item>Caché</item>
+        <item>Dans le widget étendu</item>
+        <item>Dans la liste des applications</item>
+    </string-array>
+    <string name="pref_hide_clock_title">Masquer l\'horloge</string>
+    <string name="pref_hide_clock_description">Masquer l\'horloge et afficher seulement les extensions</string>
     <string name="pref_shortcut_title">Raccourci</string>
     <string name="pref_shortcut_default">(Par défaut)</string>
-
-    <!-- Weather -->
     <string name="pref_weather_units_title">Unité de température</string>
     <string-array name="pref_weather_units_display_names">
         <item>°F</item>
         <item>°C</item>
     </string-array>
-
-    <!-- Gmail -->
-    <string name="pref_gmail_label_title">Afficher le nombre de courriels non lus pour le libellé</string>
+    <string name="pref_weather_location_title">Localisation</string>
+    <string name="pref_weather_location_query_hint">Définir un lieu</string>
+    <string name="pref_weather_location_automatic">Automatique</string>
+    <string name="pref_weather_location_automatic_description">Basé sur le lieu actuel</string>
+    <string name="pref_gmail_label_title">Définir le libellé pour lequel afficher le nombre de courriels non lus</string>
     <string-array name="pref_gmail_label_display_names">
         <item>Boîte de réception</item>
         <item>Prioritaire</item>
     </string-array>
-
-    <string name="pref_gmail_accounts_title">Afficher le nombre de courriels non lus pour pour les comptes</string>
+    <string name="pref_gmail_accounts_title">Définir les comptes pour lesquels afficher les messages non lus</string>
     <plurals name="pref_gmail_accounts_summary_template">
-        <item quantity="one">%1$d sur %2$d compte sélectionné</item>
-        <item quantity="other">%1$d sur %2$d comptes sélectionnés</item>
+        <item quantity="one">%1$d compte sur %2$d sélectionné</item>
+        <item quantity="other">%1$d comptes sur %2$d sélectionnés</item>
     </plurals>
-
-    <!-- Calendar -->
-    <string name="pref_calendar_look_ahead_hours_title">Afficher les rendez-vous dans les prochain(e)s</string>
+    <string name="pref_calendar_look_ahead_hours_title">Définir le temps d\'anticipation des événements</string>
     <string-array name="pref_calendar_look_ahead_hours_display_names">
         <item>3 heures</item>
         <item>6 heures</item>
         <item>12 heures</item>
         <item>24 heures</item>
         <item>2 jours</item>
-        <item>semaine</item>
+        <item>1 semaine</item>
     </string-array>
-    <string name="pref_calendar_selected_title">Choisir les calendrier à afficher</string>
+    <string name="pref_calendar_selected_title">Définir les calendriers à afficher</string>
     <plurals name="pref_calendar_selected_summary_template">
-        <item quantity="one">%1$d of %2$d calendrier sélectionné</item>
-        <item quantity="other">%1$d of %2$d calendriers sélectionnés</item>
+        <item quantity="one">%1$d calendrier sur %2$d sélectionné</item>
+        <item quantity="other">%1$d calendriers sur %2$d sélectionnés</item>
     </plurals>
-    <string name="pref_calendar_custom_visibility_title">Paramétrer la visibilité du calendrier</string>
+    <string name="pref_calendar_custom_visibility_title">Modifier les calendriers à afficher</string>
     <string name="pref_calendar_custom_visibility_description">Si décochée, afficher tous les calendriers</string>
-    <string name="pref_calendar_show_all_day_title">Afficher tous les évènements de la journée</string>
-    <string name="pref_calendar_show_all_day_description">Inclus tous les évènements de la journée tels que les anniversaires</string>
-
-    <!-- Daydream preferences -->
-    <!--<string name="pref_daydream_color_title">Foreground color</string>-->
-    <!--<string name="pref_daydream_system_settings_title">System Daydream settings</string>-->
+    <string name="pref_calendar_show_all_day_title">Événements sur une journée</string>
+    <string name="pref_calendar_show_all_day_description">Afficher les événements qui durent toute la journée tels que les anniversaires</string>
+    <string name="pref_daydream_color_title">Couleur du premier plan</string>
+    <string name="pref_daydream_color_description">Définir la couleur du texte et des icônes</string>
+    <string name="pref_daydream_night_mode_title">Mode nuit</string>
+    <string name="pref_daydream_night_mode_description">Affichage peu lumineux (pour les pièces sombres)</string>
+    <string name="pref_daydream_animation_title">Animation</string>
+    <string-array name="pref_daydream_animation_display_names">
+        <item>Pendule (défaut)</item>
+        <item>Glissement</item>
+        <item>Fondu</item>
+        <item>Aucune (peut détériorer votre écran)</item>
+    </string-array>
+    <string name="pref_daydream_system_settings_title">Paramètres de l\'écran de veille interactif</string>
 </resources>
