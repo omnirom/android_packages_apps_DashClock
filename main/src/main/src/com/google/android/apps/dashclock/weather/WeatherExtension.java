@@ -41,7 +41,6 @@ import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 
-import net.nurik.roman.dashclock.BuildConfig;
 import net.nurik.roman.dashclock.R;
 
 import java.text.SimpleDateFormat;
@@ -306,11 +305,6 @@ public class WeatherExtension extends DashClockExtension {
             expandedBody.append("\n");
         }
         expandedBody.append(weatherData.location);
-
-        if (BuildConfig.DEBUG) {
-            expandedBody.append("\n")
-                    .append(SimpleDateFormat.getDateTimeInstance().format(new Date()));
-        }
 
         publishUpdate(new ExtensionData()
                 .visible(true)

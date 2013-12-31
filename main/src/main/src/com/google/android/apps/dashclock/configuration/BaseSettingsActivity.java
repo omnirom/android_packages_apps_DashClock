@@ -45,7 +45,6 @@ public abstract class BaseSettingsActivity extends PreferenceActivity {
         setupSimplePreferencesScreen();
     }
 
-    @Override
     protected boolean isValidFragment(String fragmentName) {
         return false;
     }
