@@ -1,0 +1,88 @@
+<!--
+  Copyright 2012 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="pref_clock_shortcut_title">Klockgenväg</string>
+    <string name="pref_background_title">Bakgrund</string>
+    <string name="pref_foreground_color_title">Förgrundsfärg</string>
+    <string name="pref_homescreen_title">Hemskärmswidget</string>
+    <string name="pref_lockscreen_title">Låsskärmswidget</string>
+    <string name="pref_background_opacity_title">Bakgrundssynlighet</string>
+    <string-array name="pref_background_opacity_display_names">
+        <item>Helt transparent</item>
+        <item>25% synlig</item>
+        <item>50% synlig</item>
+        <item>75% synlig</item>
+        <item>Helt opak</item>
+    </string-array>
+    <string name="pref_foreground_color_description">Färgen på text och ikoner</string>
+    <string name="pref_aggressive_centering_title">Alltid i mitten</string>
+    <string name="pref_aggressive_centering_description">Kan resultera i att klockan hoppar omkring beroende på widgetens läge</string>
+    <string name="pref_settings_button_title">Inställningsknapp</string>
+    <string-array name="pref_settings_button_display_names">
+        <item>Gömd</item>
+        <item>I expanderad widget</item>
+        <item>I applådan</item>
+    </string-array>
+    <string name="pref_hide_clock_title">Göm klocka</string>
+    <string name="pref_hide_clock_description">Göm klockan och visa endast tillägg</string>
+    <string name="pref_shortcut_title">Genväg</string>
+    <string name="pref_shortcut_default">(Standard)</string>
+    <string name="pref_weather_units_title">Temperaturenhet</string>
+    <string name="pref_weather_location_title">Plats</string>
+    <string name="pref_weather_location_query_hint">Hitta en plats</string>
+    <string name="pref_weather_location_automatic">Automatisk</string>
+    <string name="pref_weather_location_automatic_description">Baserad på din nuvarande position.</string>
+    <string name="pref_gmail_label_title">Visa antal olästa för etikett</string>
+    <string-array name="pref_gmail_label_display_names">
+        <item>Inkorgen</item>
+        <item>Prioriterad inkorg</item>
+    </string-array>
+    <string name="pref_gmail_accounts_title">Visa antal olästa för konto</string>
+    <plurals name="pref_gmail_accounts_summary_template">
+        <item quantity="one">%1$d av %2$d konto valt</item>
+        <item quantity="other">%1$d av %2$d konton valda</item>
+    </plurals>
+    <string name="pref_calendar_look_ahead_hours_title">Visa händelser för kommande</string>
+    <string-array name="pref_calendar_look_ahead_hours_display_names">
+        <item>3 timmar</item>
+        <item>6 timmar</item>
+        <item>12 timmar</item>
+        <item>24 timmar</item>
+        <item>2 dagar</item>
+        <item>vecka</item>
+    </string-array>
+    <string name="pref_calendar_selected_title">Välj kalendrar att visa</string>
+    <plurals name="pref_calendar_selected_summary_template">
+        <item quantity="one">%1$d av %2$d kalender vald</item>
+        <item quantity="other">%1$d av %2$d kalendrar valda</item>
+    </plurals>
+    <string name="pref_calendar_custom_visibility_title">Anpassad kalendervisning</string>
+    <string name="pref_calendar_custom_visibility_description">Om okryssad kommer samtliga kalendrar att visas</string>
+    <string name="pref_calendar_show_all_day_title">Visa heldagshändelser</string>
+    <string name="pref_calendar_show_all_day_description">Inkludera heldagshändelser som födelsedagar</string>
+    <string name="pref_daydream_color_title">Förgrundsfärg</string>
+    <string name="pref_daydream_color_description">Färgen på text och ikoner i Dagdrömsläge</string>
+    <string name="pref_daydream_night_mode_title">Nattläge</string>
+    <string name="pref_daydream_night_mode_description">Mycket dämpad ljusstyrka (för mörka rum)</string>
+    <string name="pref_daydream_animation_title">Animering</string>
+    <string-array name="pref_daydream_animation_display_names">
+        <item>Pendel (standard)</item>
+        <item>Glid</item>
+        <item>Tona</item>
+        <item>Ingen (kan skada din skärm)</item>
+    </string-array>
+    <string name="pref_daydream_system_settings_title">Systeminställningar för Dagdrömmar</string>
+</resources>

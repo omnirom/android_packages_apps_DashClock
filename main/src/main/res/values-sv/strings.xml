@@ -1,0 +1,131 @@
+<!--
+  Copyright 2012 Google Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <string name="permission_desc_read_extension_data">Tillåter begäran av DashClocks tilläggsdata</string>
+    <string name="permission_label_read_extension_data">Begära DashClocks tilläggsdata</string>
+    <string name="settings">Inställningar</string>
+    <string name="more_options">Fler alternativ</string>
+    <string name="title_configure">DashClock-inställningar</string>
+    <string name="section_extensions">Tillägg</string>
+    <string name="section_appearance">Utseende</string>
+    <string name="section_daydream">Dagdröm</string>
+    <string name="section_advanced">Avancerat</string>
+    <string name="title_apps">Appar</string>
+    <string name="title_shortcuts">Genvägar</string>
+    <string name="get_more_extensions">Skaffa fler tillägg</string>
+    <string name="add_another_extension">Lägg till ett tillägg</string>
+    <string name="more_extensions">Fler tillägg</string>
+    <string name="done">Klar</string>
+    <string name="add_extension">Lägg till ett tillägg</string>
+    <string name="cancel">Avbryt</string>
+    <string name="remove">Ta bort</string>
+    <string name="undo">Ångra</string>
+    <string name="extension_removed_template">\'%1$s\' borttagen.</string>
+    <string name="extensions_removed_template">%1%d tillägg borttagna.</string>
+    <string name="send_logs">Skicka felsökningslogg</string>
+    <string name="send_logs_chooser_title">Skicka loggar med</string>
+    <string name="prev_date_style">Föregående datumstil</string>
+    <string name="prev_time_style">Föregående tidstil</string>
+    <string name="next_date_style">Nästa datumstil</string>
+    <string name="next_time_style">Nästa tidstil</string>
+    <string name="incompatible_extension_menu_template">%1$s (Inkompatibel)</string>
+    <string name="incompatible_extension_title">Inkompatibelt tillägg</string>
+    <string name="incompatible_extension_message_search_play_template"><![CDATA[Tillägget
+        <b>%1$s</b> är inkompatibelt med denna version av DashClock.
+        Vill du söka efter en uppdatering för tillägget på Google Play?]]></string>
+    <string name="search_play">Sök på Google Play</string>
+    <string name="close">Stäng</string>
+    <string name="about">Om</string>
+    <string name="about_body"><![CDATA[
+        Copyright 2012-2013 Google Inc.<br>Med ensamrätt.<br>
+        <a href="http://m.google.com/utos">Användarvillkor</a>
+        &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+        <a href="http://www.google.com/policies/privacy/">Sekretess</a>&nbsp;<br><br>
+        Stort tack till dessa verktyg med öppen källkod:<br><br>
+        <b><a href="http://www.androidicons.com/">Android Developer Icons</a>&nbsp;</b><br>
+        <i>av Günther Beyer vid <a href="http://www.opoloo.com/">Opoloo</a></i>&nbsp;<br><br>
+        <b><a href="https://github.com/bauerca/drag-sort-listview">DragSortListView</a></b>&nbsp;<br>
+        <i>av Carl A. Bauer</i>
+    ]]></string>
+    <string name="weather_extension_title">Väder</string>
+    <string name="weather_extension_description">
+        Visar den senast väderinformationen för din plats, inklusive aktuell temperatur och
+        förhållanden, samt prognos. Drivs med Yahoo! Weather.
+    </string>
+    <string name="title_weather_settings">Inställningar för vädertillägg</string>
+    <string name="later_forecast_template">Senare: %1$s</string>
+    <string name="no_weather_data">Ingen väderdata tillgänglig</string>
+    <string name="no_location_data">Din plats kunde inte fastställas</string>
+    <string name="gmail_extension_description">
+        Visar antalet olästa mail för din inkorg eller prioriterade inkorg på Gmail.
+    </string>
+    <string name="title_gmail_settings">Inställningar för Gmailtillägg</string>
+    <plurals name="gmail_title_template">
+        <item quantity="other">%1$d olästa</item>
+    </plurals>
+    <string name="next_alarm_extension_title">Nästa alarm</string>
+    <string name="next_alarm_extension_description">
+        Visar information om det närmast kommande alarmet, om du har satt ett.
+    </string>
+    <string name="next_alarm">Nästa alarm</string>
+    <string name="title_next_alarm_settings">Inställningar för alarmtillägg</string>
+    <string name="calendar_extension_title">Kalenderhändelse</string>
+    <string name="calendar_extension_description">
+        Visar information om din nästa kalenderhändelse, om någon är schemalagd inom
+        de närmaste timmarna.
+    </string>
+    <string name="title_calendar_settings">Inställningar för kalendertillägg</string>
+    <plurals name="calendar_template_days">
+        <item quantity="one">%1$s dag</item>
+        <item quantity="other">%1$s dagar</item>
+    </plurals>
+    <plurals name="calendar_template_hours">
+        <item quantity="one">%1$s timme</item>
+        <item quantity="other">%1$s timmar</item>
+    </plurals>
+    <plurals name="calendar_template_mins">
+        <item quantity="other">%1$s minuter</item>
+    </plurals>
+    <string name="today">Idag</string>
+    <string name="now">Nu</string>
+    <string name="missed_calls_extension_title">Missade samtal</string>
+    <string name="missed_calls_extension_description">
+        Visar antalet missade samtal och namnen på de uppringare du missat.
+    </string>
+    <plurals name="missed_calls_title_template">
+        <item quantity="one">%1$s missat samtal</item>
+        <item quantity="other">%1$s missade samtal</item>
+    </plurals>
+    <string name="missed_calls_body_template">Från: %1$s</string>
+    <string name="missed_calls_unknown">Okänd</string>
+    <string name="sms_extension_title">Textmeddelanden</string>
+    <string name="sms_extension_description">
+        Visar antalet olästa SMS- och MMS-meddelanden, ihop med avsändarnamn.
+    </string>
+    <plurals name="sms_title_template">
+        <item quantity="one">%1$s oläst konversation</item>
+        <item quantity="other">%1$s olästa konversationer</item>
+    </plurals>
+    <string name="sms_body_template">Från: %1$s</string>
+    <string name="sms_body_all_participants_template">Med: %1$s</string>
+    <string name="welcome_title">Anpassa din DashClock</string>
+    <string name="welcome_description">Vill du bara se aktuell tid och datum? Tryck
+        då på bockmarkeringen ovan så är det klart! Men varför inte anpassa DashClock med
+        några <i>tillägg</i>?
+        \n\n<b>Tillägg</b> visar dig relevant och läglig information, direkt i DashClock!
+        Prova dem genom att lägga till några tillägg nedan.
+    </string>
+</resources>
