@@ -17,8 +17,29 @@
 <resources>
     <!-- Advanced widget preferences -->
     <string name="pref_clock_shortcut_title">Zástupce hodin</string>
+    <string name="pref_background_title">Pozadí</string>
+    <string name="pref_foreground_color_title">Barva popředí</string>
+    <string name="pref_homescreen_title">Widget domací obrazovky</string>
+    <string name="pref_lockscreen_title">Widget zamykací obrazovky</string>
+    <string name="pref_background_opacity_title">Viditelnost pozadí</string>
+    <string-array name="pref_background_opacity_display_names">
+        <item>Plně transparentní</item>
+        <item>25% viditelné</item>
+        <item>50% viditelné</item>
+        <item>75% viditelné</item>
+        <item>Zcela neprůhledné</item>
+    </string-array>
+    <string name="pref_foreground_color_description">Barva textu a ikon</string>
     <string name="pref_aggressive_centering_title">Vždy uprostřed</string>
     <string name="pref_aggressive_centering_description">Může způsobit poskakování pro některé hodnoty widgetu</string>
+    <string name="pref_settings_button_title">Tlačítko nastavení</string>
+    <string-array name="pref_settings_button_display_names">
+        <item>Schované</item>
+        <item>V rozšířeném widgetu</item>
+        <item>Spouštěč aplikace</item>
+    </string-array>
+    <string name="pref_hide_clock_title">Skrýt hodiny</string>
+    <string name="pref_hide_clock_description">Skrýt hodiny a zobrazovat pouze rozšíření</string>
 
     <!-- Universal settings preferences -->
     <string name="pref_shortcut_title">Zástupce</string>
@@ -30,9 +51,13 @@
         <item>°F</item>
         <item>°C</item>
     </string-array>
+    <string name="pref_weather_location_title">Poloha</string>
+    <string name="pref_weather_location_query_hint">Najít polohu</string>
+    <string name="pref_weather_location_automatic">Automaticky</string>
+    <string name="pref_weather_location_automatic_description">Na základě aktuální polohy.</string>
 
     <!-- Gmail -->
-    <string name="pref_gmail_label_title">Zobrazit počet nepřečtených v popisku</string>
+    <string name="pref_gmail_label_title">Zobrazit počet nepřečtených zpráv v popisku</string>
     <string-array name="pref_gmail_label_display_names">
         <item>Pošta</item>
         <item>Prioritní pošta</item>
@@ -41,7 +66,6 @@
     <string name="pref_gmail_accounts_title">Zobrazit počet nepřečtených na účtech</string>
     <plurals name="pref_gmail_accounts_summary_template">
         <item quantity="one">%1$d z %2$d účtů vybrán</item>
-        <item quantity="few">%1$d z %2$d účtů vybrány</item>
         <item quantity="other">%1$d z %2$d účtů vybráno</item>
     </plurals>
 
@@ -53,7 +77,7 @@
         <item>12 hodin</item>
         <item>24 hodin</item>
         <item>2 dny</item>
-        <item>1 týden</item>
+        <item>týden</item>
     </string-array>
     <string name="pref_calendar_selected_title">Zvolit kalendáře k zobrazení</string>
     <plurals name="pref_calendar_selected_summary_template">
@@ -67,5 +91,15 @@
 
     <!-- Daydream preferences -->
     <string name="pref_daydream_color_title">Barva popředí</string>
+    <string name="pref_daydream_color_description">Barva textu a ikon v režimu Daydream</string>
+    <string name="pref_daydream_night_mode_title">Noční režim</string>
+    <string name="pref_daydream_night_mode_description">Velmi jasný displej (pro tmavé místnosti)</string>
+    <string name="pref_daydream_animation_title">Animace</string>
+    <string-array name="pref_daydream_animation_display_names">
+        <item>Kyvadlo (výchozí)</item>
+        <item>Skluzavka</item>
+        <item>Slábnout</item>
+        <item>Žádná (může dojít k poškození obrazovky)</item>
+    </string-array>
     <string name="pref_daydream_system_settings_title">Systémové nastavení Daydream</string>
 </resources>
