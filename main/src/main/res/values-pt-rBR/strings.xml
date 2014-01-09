@@ -39,9 +39,10 @@
     <string name="done">Pronto</string>
     <string name="add_extension">Adicionar extensões</string>
     <string name="cancel">Cancelar</string>
+    <string name="remove">Remover</string>
 
     <!-- These strings never appear in release builds; translation is very low priority -->
-    <string name="send_logs">Enviar log de debug</string>
+    <string name="send_logs">Enviar log de depuração</string>
     <string name="send_logs_chooser_title">Enviar log utilizando</string>
 
     <string name="prev_date_style">Estilo de Data anterior</string>
@@ -100,6 +101,7 @@
         Exibe informações sobre seus próximos alarmes, se você tiver algum configurado.
     </string>
     <string name="next_alarm">Próximo alarme</string>
+    <string name="title_next_alarm_settings">Configurações da extensão Próximo Alarme</string>
 
     <!-- Calendar -->
     <string name="calendar_extension_title">Calendário</string>
