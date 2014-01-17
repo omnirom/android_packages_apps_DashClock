@@ -27,7 +27,7 @@
     <string name="title_configure">Ρύθμιση DashClock Widget</string>
     <string name="section_extensions">Επεκτάσεις</string>
     <string name="section_appearance">Εμφάνιση</string>
-    <!--<string name="section_daydream">Daydream</string>-->
+    <string name="section_daydream">Daydream</string>
     <string name="section_advanced">Προχωρημένα</string>
 
     <string name="title_apps">Εφαρμογές</string>
@@ -39,6 +39,7 @@
     <string name="done">Έτοιμο!</string>
     <string name="add_extension">Προσθήκη επέκτασης</string>
     <string name="cancel">Άκυρωση</string>
+    <string name="remove">Αφαίρεση</string>
 
     <!-- These strings never appear in release builds; translation is very low priority -->
     <string name="send_logs">Send debug log</string>
@@ -100,6 +101,7 @@
         Εμφανίζει πληροφορίες σχετικά με την επόμενη προγραμματισμένη αφύπνιση, αν έχετε ορίσει κάποια.
     </string>
     <string name="next_alarm">Επόμενη αφύπνιση</string>
+    <string name="title_next_alarm_settings">Ρυθμίσεις επέκτασης επόμενης αφύπνισης</string>
 
     <!-- Calendar -->
     <string name="calendar_extension_title">Ημερολογιακή συνάντηση</string>
@@ -112,14 +114,14 @@
         <item quantity="other">%1$s ημέρες</item>
     </plurals>
     <plurals name="calendar_template_hours">
-        <item quantity="one">%1$s ωρ</item>
-        <item quantity="other">%1$s ωρς</item>
+        <item quantity="one">%1$s ωρα</item>
+        <item quantity="other">%1$s ωρες</item>
     </plurals>
     <plurals name="calendar_template_mins">
-        <item quantity="other">%1$s λεπ</item>
+        <item quantity="other">%1$s λεπτά</item>
     </plurals>
     <string name="today">Σήμερα</string>
-    <!--<string name="now">Now</string>-->
+    <string name="now">Τώρα</string>
 
     <!-- Missed calls -->
     <string name="missed_calls_extension_title">Αναπάντητες κλήσεις</string>
@@ -130,8 +132,8 @@
         <item quantity="one">%1$s αναπάντηση κλήση</item>
         <item quantity="other">%1$s αναπάντητες κλήσεις</item>
     </plurals>
-    <string name="missed_calls_body_template">From: %1$s</string>
-    <!--<string name="missed_calls_unknown">Unknown</string>-->
+    <string name="missed_calls_body_template">Από: %1$s</string>
+    <string name="missed_calls_unknown">Άγνωστος</string>
 
     <!-- SMS + MMS -->
     <string name="sms_extension_title">Μηνύματα</string>
@@ -142,7 +144,8 @@
         <item quantity="one">%1$s μη διαβασμένη συνομιλία</item>
         <item quantity="other">%1$s μη διαβασμένες συνομιλίες</item>
     </plurals>
-    <string name="sms_body_template">From: %1$s</string>
+    <string name="sms_body_template">Από: %1$s</string>
+    <string name="sms_body_all_participants_template">Με: %1$s</string>
 
     <!-- Welcome strings -->
     <string name="welcome_title">Εξατομίκευση του DashClock σας</string>
