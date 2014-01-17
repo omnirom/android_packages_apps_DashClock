@@ -17,8 +17,41 @@
 <resources>
     <!-- Advanced widget preferences -->
     <string name="pref_clock_shortcut_title">Συντόμευση Ρολογιού</string>
+    <string name="pref_background_title">Παρασκήνιο</string>
+    <string name="pref_foreground_color_title">Χρώμα προσκηνίου</string>
+    <string name="pref_homescreen_title">Widget αρχικής οθόνης</string>
+    <string name="pref_lockscreen_title">Widget οθόνης κλειδώματος</string>
+    <string name="pref_background_opacity_title">Διαφάνεια παρασκηνίου</string>
+    <string-array name="pref_background_opacity_display_names">
+        <item>Πλήρης διαφάνεια</item>
+        <item>25% ορατό</item>
+        <item>50% ορατό</item>
+        <item>75% ορατό</item>
+        <item>Πλήρης αδιαφάνεια</item>
+    </string-array>
+    <string-array name="pref_background_opacity_values" translatable="false">
+        <item>0</item>
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+    </string-array>
+    <string name="pref_foreground_color_description">Χρώμα κειμένου και εικονιδίων</string>
     <string name="pref_aggressive_centering_title">Πάντα κεντρικά</string>
     <string name="pref_aggressive_centering_description">Αυτό μπορεί να έχει ως αποτέλεσμα την μετατόπιση του ρολογιού, ανάλογα με την κατάσταση του widget</string>
+    <string name="pref_settings_button_title">Πλήκτρο ρυθμίσεων</string>
+    <string-array name="pref_settings_button_display_names">
+        <item>Κρυμμένο</item>
+        <item>Στο εκτεταμένο widget</item>
+        <item>Στον εκκινητή εφαρμογής</item>
+    </string-array>
+    <string-array name="pref_settings_button_values" translatable="false">
+        <item>hidden</item>
+        <item>inwidget</item>
+        <item>inlauncher</item>
+    </string-array>
+    <string name="pref_hide_clock_title">Απόκρυψη ρολογιού</string>
+    <string name="pref_hide_clock_description">Απόκρυψη ρολογιού και εμφάνιση μόνο επεκτάσεων</string>
 
     <!-- Universal settings preferences -->
     <string name="pref_shortcut_title">Συντόμευση</string>
@@ -30,6 +63,14 @@
         <item>°F</item>
         <item>°C</item>
     </string-array>
+    <string-array name="pref_weather_units_values" translatable="false">
+        <item>f</item>
+        <item>c</item>
+    </string-array>
+    <string name="pref_weather_location_title">Τοποθεσία</string>
+    <string name="pref_weather_location_query_hint">Εύρεση τοποθεσίας</string>
+    <string name="pref_weather_location_automatic">Αυτόματα</string>
+    <string name="pref_weather_location_automatic_description">Βασισμένη στη τρέχουσα τοποθεσία.</string>
 
     <!-- Gmail -->
     <string name="pref_gmail_label_title">Εμφάνιση μη αναγνωσμένων από:</string>
@@ -37,6 +78,11 @@
         <item>Εισερχόμενα</item>
         <item>Εισερχόμενα προτεραιότητας</item>
     </string-array>
+    <string-array name="pref_gmail_label_inbox_values" translatable="false">
+        <item>i</item>
+        <item>p</item>
+    </string-array>
+
     <string name="pref_gmail_accounts_title">Εμφάνιση μη αναγνωσμένων από το λογαριασμό:</string>
     <plurals name="pref_gmail_accounts_summary_template">
         <item quantity="one">%1$d από %2$d λογαριασμούς επιλέχθηκε</item>
@@ -64,6 +110,23 @@
     <string name="pref_calendar_show_all_day_description">Συμπερίληψη ολοήμερων γεγονότων όπως τα γενέθλια</string>
 
     <!-- Daydream preferences -->
-    <!--<string name="pref_daydream_color_title">Foreground color</string>-->
-    <!--<string name="pref_daydream_system_settings_title">System Daydream settings</string>-->
+    <string name="pref_daydream_color_title">Χρώμα προσκηνίου</string>
+    <string name="pref_daydream_color_description">Χρώμα κειμένου και εικονιδίων σε λειτουργία Daydream</string>
+    <string name="pref_daydream_night_mode_title">Λειτουργία νύχτας</string>
+    <string name="pref_daydream_night_mode_description">Πολύ σκοτεινή οθόνη (για σκοτεινούς χώρους)</string>
+    <string name="pref_daydream_animation_title">Εφέ</string>
+    <string-array name="pref_daydream_animation_display_names">
+        <item>Εκκρεμές (προεπιλεγμένο)</item>
+        <item>Ολίσθηση</item>
+        <item>Ξεθώριασμα</item>
+        <item>Κανένα (μπορεί να χαλάσει την οθόνη σας)</item>
+    </string-array>
+    <string-array name="pref_daydream_animation_values" translatable="false">
+        <item>pendulum</item>
+        <item>slide</item>
+        <item>fade</item>
+        <item>none</item>
+    </string-array>
+    <string name="pref_daydream_system_settings_title">Ρυθμίσεις συστήματος Daydream</string>
+
 </resources>
