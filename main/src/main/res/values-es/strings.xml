@@ -39,6 +39,15 @@
     <string name="done">Hecho</string>
     <string name="add_extension">Agregar extensión</string>
     <string name="cancel">Cancelar</string>
+    <string name="remove">Eliminar</string>
+
+    <string name="undo">Anular</string>
+    <string name="extension_removed_template">\'%1$s\' borrada.</string>
+    <string name="extensions_removed_template">%1%d extensiones borradas.</string>
+
+    <!-- These strings never appear in release builds; translation is very low priority -->
+    <string name="send_logs">Enviar registro</string>
+    <string name="send_logs_chooser_title">Enviar registro en uso</string>
 
     <string name="prev_date_style">Estilo de fecha anterior</string>
     <string name="prev_time_style">Estilo de hora anterior</string>
@@ -51,10 +60,6 @@
         extensión <b>%1$s</b> no es compatible con esta versión del DashClock.
         ¿Buscar actualización de la extensión en Google Play?]]></string>
     <string name="search_play">Buscar en Google Play</string>
-
-    <!-- These strings never appear in release builds; translation is very low priority -->
-    <string name="send_logs">Enviar registro</string>
-    <string name="send_logs_chooser_title">Enviar registro en uso</string>
 
     <!-- About -->
     <string name="close">Cerrar</string>
@@ -79,7 +84,7 @@
         Muestra información actualizada del clima cerca de ti, incluyendo temperatura actual, condición y pronóstico.
         Información proporcionada por Yahoo! Weather.
     </string>
-    <string name="title_weather_settings">Configuración de la extensión del clima</string>
+    <string name="title_weather_settings">Configuración de Clima</string>
     <string name="temperature_template">%1$s°</string>
     <string name="later_forecast_template">Luego: %1$s</string>
     <string name="no_weather_data">Información de clima no disponible</string>
@@ -90,7 +95,7 @@
     <string name="gmail_extension_description">
         Muestra la cantidad de mensajes sin leer de la bandeja de entrada o prioritaria de Gmail.
     </string>
-    <string name="title_gmail_settings">Configuración de la extensión de Gmail</string>
+    <string name="title_gmail_settings">Configuración de Gmail</string>
     <plurals name="gmail_title_template">
         <item quantity="other">%1$d sin leer</item>
     </plurals>
@@ -101,14 +106,15 @@
         Muestra información acerca de la próxima alarma programada, si existe.
     </string>
     <string name="next_alarm">Próxima alarma</string>
+    <string name="title_next_alarm_settings">Configuración de Próxima alarma</string>
 
     <!-- Calendar -->
     <string name="calendar_extension_title">Cita del Calendario</string>
     <string name="calendar_extension_description">
         Muestra información acerca de su próxima cita del calendario, si tiene
-        una programada dentro de las próximas seis horas.
+        una programada dentro de las próximas horas.
     </string>
-    <string name="title_calendar_settings">Configuración de la extensión del Calendario</string>
+    <string name="title_calendar_settings">Configuración de Calendario</string>
     <plurals name="calendar_template_days">
         <item quantity="one">%1$s día</item>
         <item quantity="other">%1$s días</item>
@@ -147,6 +153,7 @@
         <item quantity="other">%1$s conversaciones sin leer</item>
     </plurals>
     <string name="sms_body_template">De: %1$s</string>
+    <string name="sms_body_all_participants_template">Con: %1$s</string>
 
     <!-- Welcome strings -->
     <string name="welcome_title">Personaliza tu DashClock</string>
@@ -154,7 +161,7 @@
         ¡Entonces presiona el checkbox de arriba y listo!
         Pero, ¿por qué no personalizar el DashClock con un par de <i>extensiones</i>?
         \n\nLas <b>Extensiones</b> muestran información relevante y actualizada dentro de DashClock.
-        Prueba a agregar un par de extensiones debajo.
+        Prueba agregando un par de extensiones debajo.
     </string>
 
 </resources>
